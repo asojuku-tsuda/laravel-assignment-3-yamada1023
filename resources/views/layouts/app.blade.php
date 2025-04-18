@@ -375,7 +375,7 @@
     <div class="container">
         <h1 class="app-title"><i class="fas fa-sticky-note"></i> Notepad</h1>
         <div class="header-actions">
-            <form action="{{ route('memos.index') }}" method="POST" class="search-form">
+            <form action="{{ route('memos.index') }}" method="GET" class="search-form">
                 <div class="search-container">
                     <input
                         type="text"

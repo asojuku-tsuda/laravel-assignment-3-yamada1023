@@ -4,7 +4,7 @@
     <div class="form-container">
         <h2 class="form-title"><i class="fas fa-pen"></i> 新規メモ作成</h2>
 
-        <form method="GET" action="{{ route('memos.store') }}">
+        <form method="POST" action="{{ route('memos.store') }}">
             @csrf
 
             <div class="form-group">
